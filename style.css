@@ -1,3 +1,103 @@
-h1{
-    text-align: center;
+* {margin: 0; padding: 0; box-sizing: border-box;}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f6ff;
+  color: #0b0b25;
+  line-height: 1.6;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+.logo { font-weight: 700; font-size: 20px; color: #4f46e5; }
+.btn {
+  background: #4f46e5;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  padding: 100px 20px 60px;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.hero button {
+  margin-top: 20px;
+}
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+.section .box {
+  display: inline-block;
+  margin: 10px;
+}
+.stats {
+  background: #dfe3ff;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.stat {
+  text-align: center;
+}
+.stat strong {
+  display: block;
+  font-size: 24px;
+  color: #4f46e5;
+}
+.testimonials {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px 20px;
+}
+.testimonial {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.cta, .form-section {
+  background: #f1f4ff;
+  text-align: center;
+  padding: 60px 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  gap: 10px;
+}
+.form input, .form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+.footer {
+  background: white;
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 14px;
+}
+.footer .logo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.footer nav a {
+  margin: 0 10px;
+  color: #4f46e5;
+  text-decoration: none;
 }
